@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "synmaps/{name}",
+      "connection": "azmltestsa_STORAGE"
+    }
+  ]
+}
